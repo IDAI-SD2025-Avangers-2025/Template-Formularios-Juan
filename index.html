@@ -1,1 +1,107 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="p1">
+        Todos los tipos de <i>Inputs</i>
+    </p>
+    <div id="div1">
+        <form action="index.html" method="get">
+            <label for="Nombre"> Nombre </label>
+            <input type="text" name="Nombre" id="Nombre">
+            <br>
+            <label for="Apellido"> Apellido </label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br>
+            <input type="submit" value="enviar datos">
+            <br>
+            <label for="Busqueda"> Busqueda </label>
+            <input type="search" name="Busqueda" id="Busqueda">
+            <br>
+            <label for="URL"> Link/hpertexto </label>
+            <input type="url" name="url" id="url">
+            <br>
+            <label for="Email"> Correo electronico </label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="contraseña"> contraseña </label>
+            <input type="password" name="contraseña" id="contraseña">
+            <br>
+            <label for="C de C"> Campo de texto </label>
+            <textarea name="Campo de Texto" id="Campo de Texto"></textarea>
+            <br>
+            <label for="Tipo Numerico"> Tipo Numerico </label>
+            <input type="number" name="TNumerico" id="TNumerico">
+            <br>
+            <label for="Rango"> Rango </label>
+            <input type="range" name="rango" id="rango">
+            <br>
+            <label for="Fecha"> Fecha </label>
+            <input type="date" name="Fecha" id="Fecha">
+            <br>
+            <label for="hora"> Hora </label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="FyH"> Fecha y Hora </label>
+            <input type="datetime-local" name="FyH" id="FyH">
+            <br>
+            <label for="Mes"> Mes </label>
+            <input type="month" name="Mes" id="Mes">
+            <br>
+            <label for="Radio boton"> Radio boton </label>
+            <input type="radio" name="radio" id="radio">
+            <br>
+            <label for="checkbox"> Checkbox </label>
+            <input type="checkbox" name="Checkbox" id="checkbox">
+            <br>
+            <label for="colores"> colores </label>
+            <input type="color" name="colores" id="colores">
+            <br>
+            <label for="S-O"> Selecciona la opcion correcta </label>
+            <select name="si" id="si">
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+            <br>
+            <label for="S-O Multiple"> Selecciona las opciones que apliquen</label>
+            <select multiple>
+                <option value="1">Elemento 1</option>
+                <option value="2"> Elemento 2</option>
+                <option value="3"> Elemento 3</option>
+            </select>
+            <br>
+            <label for="Lista de datos"> Datalist </label>
+            <input type="text" list="items">
+            <datalist id="items">
+                <option value="1"> Opcion 1</option>
+                <option value="2"> Opcion 2</option>
+                <option value="3"> Opcion 3</option>
+            </datalist>
+            <br>
+            <label for="archivo"> Selecciona tu archivo </label>
+            <input type="file" name="file" id="file">
+            <br>
+            <progress max="100" value="80"></progress>
+            <br>
+            <label for="submit"> submit </label>
+            <input type="submit">
+            <br>
+            <label for="imagen"> Imagen </label>
+            <input type="image" src="imagenes/boton.jpg" id="input1">
+            <br>
+            <label for="borrar formulario"> borrar formulario </label>
+            <input type="reset">
+            <br>
+            <label for="boton sin funcionar"> boton gratis </label>
+            <input type="button" value="input button">
+            <button>boton simple</button>
+        </form>
+    </div>
+</body>
+</html>
